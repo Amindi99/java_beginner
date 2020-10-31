@@ -4,13 +4,17 @@ public class Add {
 
 	public static void main(String[] args) {
 
-		int first = 10
-        int second = 20
+		//initialize two variables to store integers
+		int first = 10;
+		int second = 20;
 
-        System.out.print("Enter two numbers " + first + " " + second)
-        int sum = first + second
+		//Display numbers that are added
+		System.out.println("Two numbers: " + first + " " + second);
+		//addition
+		int sum = first + second;
 
-        System.out.print("The sum is " + sum)
+		//display sum
+		System.out.println("The sum is: " + sum);
 
 	}
 

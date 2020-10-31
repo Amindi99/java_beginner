@@ -4,12 +4,15 @@ public class Multiply {
 
 	public static void main(String[] args) {
 
-		float first = 1.5
-        float second = 2.0
+		//initialize two floating point numbers
+		float first = 1.5f;
+		float second = 2.0f;
 
-        float product = first * second
+		//multiplication
+		float product = first * second;
 
-        System.out.print("The product is: " + product)
+		//display result
+		System.out.println("The product is: " + product);
 
 	}
 
